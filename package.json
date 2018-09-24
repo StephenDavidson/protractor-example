@@ -1,0 +1,25 @@
+{
+  "name": "protractor-example",
+  "version": "1.0.0",
+  "description": "Example protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/.bin/protractor conf.js",
+    "wd": "node node_modules/.bin/webdriver-manager",
+    "lint": "node node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/StephenDavidson/protractor-example.git"
+  },
+  "author": "Stephen Davidson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/StephenDavidson/protractor-example/issues"
+  },
+  "homepage": "https://gitlab.com/StephenDavidson/protractor-example",
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "protractor": "^5.4.1"
+  }
+}
